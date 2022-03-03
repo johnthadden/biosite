@@ -1,3 +1,4 @@
+/*John Hadden 2/20/2022 Biostie*/
 body {
 	background-color: #17202A;
 }
@@ -59,6 +60,10 @@ p:hover {
 	border-color: #D5D8DC;
 }
 
+#portrait:hover {
+	box-shadow: none;
+}
+
 
 #landingp {
 	color: #D5D8DC;
@@ -84,6 +89,16 @@ footer {
   background-color: #D5D8DC;
   color: white;
   text-align: center;
+
+}
+
+img {
+	border: solid;
+	border-color: #D5D8DC;
+}
+
+img:hover {
+		box-shadow: 0 4px 8px 0 #D5D8DC, 0 6px 20px 0 #D5D8DC;
 }
 
 #footer {
